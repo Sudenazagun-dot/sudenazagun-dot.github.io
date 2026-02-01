@@ -232,97 +232,52 @@ footer {
         font-size: 36px;
     }
 }
-.menu {
-  background-color: #222;
-  padding: 15px;
-  text-align: center;
+
+/* ============================= */
+/* HAKKIMIZDA & GİZLİLİK EK STİL */
+/* ============================= */
+
+.content h1 {
+    text-align: center;
+    margin-bottom: 25px;
 }
 
-.menu a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
+.content h2 {
+    margin-top: 30px;
 }
 
-.menu a:hover {
-  text-decoration: underline;
-}
-.page {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+.content p {
+    margin-bottom: 15px;
+    text-align: justify;
 }
 
-.page h1 {
-  color: #222;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 10px;
+/* E-POSTA */
+.content a[href^="mailto"] {
+    color: #004c99;
+    font-weight: bold;
+    background-color: #eef4fb;
+    padding: 8px 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
-.page h2 {
-  margin-top: 30px;
-  color: #444;
+.content a[href^="mailto"]:hover {
+    background-color: #dbe8f7;
 }
 
-.page p {
-  color: #333;
-}
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f6f8;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 800px;
-  margin: 40px auto;
-  background: #ffffff;
-  padding: 30px;
-  border-radius: 8px;
+/* ANA SAYFAYA DÖN BUTONU */
+.content > a:last-child {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 10px 22px;
+    background-color: #2c7be5;
+    color: white;
+    border-radius: 20px;
+    transition: 0.3s;
 }
 
-h1 {
-  color: #1a73e8;
-  margin-bottom: 20px;
+.content > a:last-child:hover {
+    background-color: #1f5fbf;
 }
-
-h2 {
-  margin-top: 25px;
-  color: #333;
-}
-
-p {
-  line-height: 1.6;
-  color: #444;
-}
-
-a {
-  color: #1a73e8;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.back {
-  display: inline-block;
-  margin-top: 30px;
-  font-weight: bold;
-}
-
-.small {
-  font-size: 14px;
-  color: #666;
-  margin-top: 20px;
-}
-
-
-
-
 
