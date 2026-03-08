@@ -232,10 +232,7 @@ footer {
         font-size: 36px;
     }
 }
-
-/* ============================= */
-/* HAKKIMIZDA & GİZLİLİK EK STİL */
-/* ============================= */
+/* HAKKIMIZDA – GİZLİLİK – İLETİŞİM EK STİL */
 
 .content h1 {
     text-align: center;
@@ -280,6 +277,45 @@ footer {
 .content > a:last-child:hover {
     background-color: #1f5fbf;
 }
+
+/* VİDEO BÖLÜMÜ */
+
+.video-section {
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.video-section h2 {
+    color: #004c99;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.video-container:hover {
+    transform: scale(1.02);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content > a:last-child:hover {
+    background-color: #1f5fbf;
+}
 footer a {
     color: white;
     text-decoration: none;
@@ -289,6 +325,4 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
-
 
